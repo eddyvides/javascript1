@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>My Awesome First Web page</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script>
+function msgBox(mystring)
+	{
+		alert (mystring)
+	}
+function DoProduct(mystring1, mystring2)
+	{
+		var answer = mystring1 * mystring2
+		alert(answer)
+
+	}
+function GetCrazy(colorchoice) {
+	document.body.style.backgroundColor = colorchoice
+}
+
+
+	</script>
+<h1>My JavaScript Demo Lab 1</h1>
+<form name="form3">
+
+
+
+<form>
+Please enter your name:<input name="box1" type="text" />
+<input name="submit" type="button" value="Show Me" onCLick="msgBox(form.box1.valubuttone)" />
+</form>
+
+<h1>Simple Math:</h1>
+<form name="form2">
+<input name="num1" type="text" size="5" /> multiply by:
+<input name="num2" type="text" size="5" />
+<input name="submit2" type="button" value="Multiply"
+	onClick="DoProduct(form.num1.value, form.num2.value)" />
+</form>
+
+<h1>More Math:</h1>
+
+<input type="text" name="num1" size="5">
+<select name="form3">
+    <option value="Add">Add</option>
+    <option value="Subtract">Subtract</option>
+    <option value="Multiply">Multiply</option>
+    <option value="Divide">Divide</option>
+<input type="text" name="num2" size="5">
+<input name="submit3" type="button" value="Calculate"
+	onClick="DoProduct(form.num1.value, form.num2.value)" />
+</select>
+
+
+</head>
+<body>
+
+
+</body>
+
+
